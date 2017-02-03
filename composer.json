@@ -1,0 +1,25 @@
+{
+    "name": "basilicom-pimcore-plugin/minify",
+    "type": "pimcore-plugin",
+    "license": "GPLv3",
+    "description": "Pimcore plugin with helper functions for minifying JS/CSS in templates",
+    "keywords":["pimcore", "plugin", "helper", "minify", "minifying", "css", "javascript"],
+    "homepage": "http://basilicom.de/en/pimcore",
+    "authors": [
+        {
+            "name": "basilicom Team",
+            "email": "info@basilicom.de",
+            "homepage": "http://basilicom.de/en/pimcore",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "pimcore/installer-plugin": ">=1",
+        "mrclay/minify": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minify\\": "lib"
+        }
+    }
+}
