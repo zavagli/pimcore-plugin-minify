@@ -57,7 +57,7 @@ abstract class Core
 
     protected function getMinifiedUrl()
     {
-        return '/website/var/tmp/' . $this->getFilename();
+        return PIMCORE_TEMPORARY_DIRECTORY . $this->getFilename();
     }
 
     /**
